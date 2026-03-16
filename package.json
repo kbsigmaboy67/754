@@ -1,0 +1,19 @@
+{
+  "name": "vercel-document-write-app",
+  "version": "1.0.0",
+  "description": "Vercel app with permissive headers for document.write and iframe embedding",
+  "main": "index.html",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel"
+  },
+  "keywords": [
+    "vercel",
+    "document.write",
+    "iframe",
+    "csp",
+    "cors"
+  ],
+  "author": "",
+  "license": "MIT"
+}

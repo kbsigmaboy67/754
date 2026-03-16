@@ -1,0 +1,41 @@
+{
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "frame-ancestors 'self' https://*.github.com https://github.com https://*.vercel.app https://vercel.app about:blank; default-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.github.com https://github.com https://*.vercel.app https://vercel.app data: blob:; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.github.com https://github.com https://*.vercel.app https://vercel.app; style-src 'self' 'unsafe-inline' https://*.github.com https://github.com https://*.vercel.app https://vercel.app; img-src 'self' data: blob: https://*.github.com https://github.com https://*.vercel.app https://vercel.app; connect-src 'self' https://*.github.com https://github.com https://*.vercel.app https://vercel.app; frame-src 'self' https://*.github.com https://github.com https://*.vercel.app https://vercel.app about:blank;"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "ALLOWALL"
+        },
+        {
+          "key": "Access-Control-Allow-Origin",
+          "value": "*"
+        },
+        {
+          "key": "Access-Control-Allow-Methods",
+          "value": "GET, POST, PUT, DELETE, OPTIONS"
+        },
+        {
+          "key": "Access-Control-Allow-Headers",
+          "value": "*"
+        },
+        {
+          "key": "Cross-Origin-Embedder-Policy",
+          "value": "unsafe-none"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "unsafe-none"
+        },
+        {
+          "key": "Cross-Origin-Resource-Policy",
+          "value": "cross-origin"
+        }
+      ]
+    }
+  ]
+}
